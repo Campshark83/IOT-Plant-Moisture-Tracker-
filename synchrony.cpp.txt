@@ -1,0 +1,36 @@
+Synchrony C++ File 
+// I originally created this c++ file on replit but could not figure out how to export it as a file, so I have downloaded it here
+
+#include <iostream>
+using namespace std;
+
+// Function to check if a number is even or odd
+void checkEvenOdd(int num) {
+    if (num % 2 == 0) {
+        cout << num << " is even." << endl;
+    } else {
+        cout << num << " is odd." << endl;
+    }
+}
+
+int main() {
+  
+    int num1 = 10;
+    double num2 = 5.5;
+
+   
+    cout << "num1: " << num1 << endl;
+    cout << "num2: " << num2 << endl;
+
+   
+    cout << "Enter a number to check if it's even or odd: ";
+    int userInput;
+    cin >> userInput;
+
+   
+    checkEvenOdd(userInput);
+
+    return 0;
+}
+
+
